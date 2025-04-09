@@ -1,0 +1,26 @@
+# Cave Exploration Horror Game Design Document
+
+## Core Mechanics:
+- First-person exploration
+- Dynamic lighting system (flashlight mechanic)
+- Environmental horror elements
+- Audio-based scares
+- Limited visibility system
+
+## Key Features:
+1. Procedural cave generation
+2. Monster AI that reacts to player sound/light
+3. Collectible items that reveal backstory
+4. Sanity meter affected by darkness/enemy proximity
+
+## Level Design:
+- Network of interconnected caves
+- Hidden passages and secrets
+- Environmental storytelling
+- Multiple endings based on player choices
+
+## Technical Requirements:
+- Unreal Engine 5
+- Lumen lighting
+- Nanite geometry
+- MetaSounds for audio
