@@ -1,0 +1,30 @@
+# Player Controller Blueprint Example
+## (For Unreal Engine 5 Implementation)
+
+### Components:
+- FirstPersonCamera (CameraComponent)
+- Flashlight (SpotLightComponent)
+- InteractionSystem (SphereComponent)
+
+### Input Actions:
+1. MoveForward/MoveRight (Axis Mappings)
+2. LookHorizontal/LookVertical (Axis Mappings)
+3. ToggleFlashlight (Action Mapping)
+4. Interact (Action Mapping)
+5. Run (Action Mapping)
+
+### Event Graph Logic:
+- On Tick:
+  * Update SanityMeter based on light exposure
+  * Check for nearby interactables
+  * Play breathing sounds when low sanity
+
+- On Interact:
+  * Raycast forward
+  * If hit interactable, trigger event
+  * Play interaction sound
+
+- On ToggleFlashlight:
+  * Toggle light visibility
+  * Play switch sound
+  * Affect monster AI awareness
