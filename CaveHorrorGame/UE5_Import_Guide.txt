@@ -1,0 +1,35 @@
+# Unreal Engine 5 Import Guide
+
+## Project Setup:
+1. Create new UE5 project using "Games" template
+2. Select "Blank" project type
+3. Enable these settings:
+   - Ray Tracing
+   - Lumen Global Illumination
+   - Nanite Virtualized Geometry
+   - Virtual Shadow Maps
+
+## Asset Import:
+1. Models (.fbx):
+   - Import into Content Browser > Models folder
+   - Enable "Generate Lightmap UVs"
+   - Set Nanite settings appropriately
+
+2. Textures (.png):
+   - Import into Content Browser > Textures folder
+   - Set compression settings based on usage
+   - Create material instances
+
+3. Sounds (.wav):
+   - Import into Content Browser > Audio folder
+   - Set up Sound Cues and MetaSounds
+   - Configure attenuation settings
+
+## Project Organization:
+Recommended folder structure in Content Browser:
+- Characters
+- Environments/Caves
+- Blueprints
+- Materials
+- Audio
+- UI
