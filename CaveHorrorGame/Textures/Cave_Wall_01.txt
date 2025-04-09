@@ -1,0 +1,7 @@
+# Placeholder texture file description
+Texture Type: Rock Wall
+Dimensions: 2048x2048
+File Format: PNG (to be created)
+Color Scheme: Dark gray with moss accents
+Normal Map: Required
+Specular Map: Required
